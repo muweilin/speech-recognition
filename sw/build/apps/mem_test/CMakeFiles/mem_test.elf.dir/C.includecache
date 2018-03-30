@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/fyh/ann/sw/apps/mem_test/mem_test.c
+malloc.h
+-
+stdio.h
+-
+string.h
+-
+errno.h
+-
+memctl.h
+/home/fyh/ann/sw/apps/mem_test/memctl.h
+

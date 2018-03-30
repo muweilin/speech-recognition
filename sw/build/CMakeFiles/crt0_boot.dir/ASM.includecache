@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../libs/sys_lib/inc/ppu.h
+
+/home/fyh/ann/sw/ref/crt0.boot.S
+ppu.h
+/home/fyh/ann/sw/ref/ppu.h
+
